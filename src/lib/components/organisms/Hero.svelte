@@ -1,26 +1,27 @@
 <script>
 	import FeaturesIcon from '$lib/icons/features.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
+	import LinkedinIcon from '$lib/icons/socials/linkedin.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
 </script>
 
 <section id="hero">
-	<h1 class="hello">This is a SvelteKit Static Blog Template!</h1>
+	<h1 class="hello">Hi, I'm Lily!</h1>
 	<p class="intro">
-		<span class="left">It supports Markdown,</span>
-		<span class="right">and is really fast.</span>
+		<span class="left">Lorem ipsum here,</span>
+		<span class="right">lorem ipsum there.</span>
 	</p>
 	<div class="ctas">
 		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
-				<GitHubIcon slot="icon" />
-				Source Code
+			<Button color="primary" href="https://www.linkedin.com/in/lily-o/">
+				<LinkedinIcon slot="icon" />
+				LinkedIn
 			</Button>
 		</Sparkles>
-		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
-			<FeaturesIcon slot="icon" />
-			Components
+		<Button href="https://github.com/lily-gh">
+			<GitHubIcon slot="icon" />
+			GitHub
 		</Button>
 	</div>
 </section>

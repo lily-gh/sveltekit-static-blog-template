@@ -1,31 +1,30 @@
 <script>
-	import TelegramIcon from '$lib/icons/socials/telegram.svelte';
+	import DonateIcon from '$lib/icons/socials/donate.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
-	import EmailIcon from '$lib/icons/socials/email.svelte';
-	import RssIcon from '$lib/icons/rss.svelte';
+	import MusicIcon from '$lib/icons/socials/soundcloud.svelte';
 	import MastodonIcon from '$lib/icons/socials/mastodon.svelte';
 </script>
 
 <div class="socials">
 	<a
-		href="#"
+		href="https://www.linkedin.com/in/lily-o"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="Say Hi on Telegram"
+		title="Connect with me on LinkedIn"
 	>
-		<TelegramIcon />
+		<LinkedInIcon />
 	</a>
 	<a
-		href="#"
+		href="https://ko-fi.com/lily_neinhorn"
 		target="_blank"
-		rel="me noreferrer"
-		title="Say Hi on Mastodon"
+		rel="noopener noreferrer"
+		title="Support me on Ko-fi"
 	>
-		<MastodonIcon />
+		<DonateIcon />
 	</a>
 	<a
-		href="#"
+		href="https://github.com/lily-gh"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
@@ -33,20 +32,12 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="#"
+		href="https://soundcloud.com/lily_neinhorn"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="Connect on LinkedIn"
+		title="Listen to my crazy music ideas"
 	>
-		<LinkedInIcon />
-	</a>
-	<a
-		href="#"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="Send an email"
-	>
-		<EmailIcon />
+		<MusicIcon />
 	</a>
 </div>
 
