@@ -24,6 +24,19 @@ All posts are Markdown files, which means you can use the [Markdown syntax](http
   This is a Svelte component inside a Markdown file!
 </Callout>
 
+<Callout type="warning">
+  This is a Svelte component inside a Markdown file!
+</Callout>
+
+<Callout type="success">
+  This is a Svelte component inside a Markdown file!
+</Callout>
+
+<Callout type="error">
+  This is a Svelte component inside a Markdown file!
+</Callout>
+
+
 ## Processing
 
 Besides the blog post page itself, the blog posts can be displayed in other places, such as the `/blog` page, which lists all blog posts, and the `<RecentPosts>` component, used in the home page.

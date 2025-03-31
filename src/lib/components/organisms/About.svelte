@@ -7,12 +7,17 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			Where curiosity and creativity meet engineering
+			<SparklingHighlight color="secondary">excellence</SparklingHighlight>.
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			With a decade of experience in software engineering, my goal is to create intuitive,
+			high-performing applications while staying creative. <SparklingHighlight color="secondary"
+				>#TODO: change</SparklingHighlight
+			>.
+			<br />
+			<br />
+			On my free time, I enjoy coding fun projects and bringing quirky ideas to life.
 		</p>
 		<div class="socials">
 			<span>Socials:</span>
@@ -20,10 +25,7 @@
 		</div>
 	</div>
 	<div class="image">
-		<Image
-			src="/images/sample-image.png"
-			alt="Sample for the static template"
-		/>
+		<Image src="/images/sample-image.png" alt="Sample for the static template" />
 	</div>
 </section>
 

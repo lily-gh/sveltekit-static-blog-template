@@ -9,8 +9,8 @@
 <section id="hero">
 	<h1 class="hello">Hi, I'm Lily!</h1>
 	<p class="intro">
-		<span class="left">Lorem ipsum here,</span>
-		<span class="right">lorem ipsum there.</span>
+		<span class="left">And I love turning quirky</span>
+		<span class="right">ideas into fun projects.</span>
 	</p>
 	<div class="ctas">
 		<Sparkles>

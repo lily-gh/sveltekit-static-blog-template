@@ -22,19 +22,20 @@
 
 	// Used for Callout component
 	@include define-color('callout-background', #f4f8fb);
-	@include define-color('callout-background--info', #dfeffd);
-	@include define-color('callout-accent--info', #2883f4);
-	@include define-color('callout-background--warning', #fff6b6);
-	@include define-color('callout-accent--warning', #c87820);
+	@include define-color('callout-background--info', #c6efff);
+	@include define-color('callout-accent--info', #5fc8f2);
+	@include define-color('callout-background--warning', #fffad2);
+	@include define-color('callout-accent--warning', #ffbf00);
 	@include define-color('callout-background--error', #ffe8e8);
 	@include define-color('callout-accent--error', #f95256);
 	@include define-color('callout-background--success', #dcf7ec);
 	@include define-color('callout-accent--success', #009f70);
 
 	// Used for Code Block component
-	@include define-color('code-background', #1c1e26);
-	@include define-color('code-text', #ffffff);
-	@include define-color('code-inline-background', #e3e3e3);
+	@include define-color('code-background', #a1e4fe);
+	@include define-color('code-selection', #479bbc);
+	@include define-color('code-text', #1c1e26);
+	@include define-color('code-inline-background', #f3d3db);
 
 	--color--waves-start: rgba(var(--color--primary-rgb), 0.3);
 	--color--waves-end: rgba(var(--color--primary-rgb), 0.1);
@@ -86,7 +87,7 @@
 	}
 
 	&[data-theme='auto'] {
-		@media (prefers-color-scheme: dark) {
+		@media (prefers-color-scheme: base) {
 			@include dark-theme;
 		}
 	}
